@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Code -->
+    <div class="container">
+        <div class="block-input">
+            <p>Create new To Do</p>
+            <div>
+                <input type="text" placeholder="ToDo" id="inputToDo">
+                <button id="addToDo">Add</button>
+            </div>
+        </div>
+        <!-- block-input -->
+
+        <div class="block-todo">
+            <table>
+                <tr>
+                    <th class="teble-header">To Do</th>
+                    <th class="teble-header">In Progress</th>
+                    <th class="teble-header">Done</th>
+                </tr>
+                <tr>
+                    <td id="newToDo"></td>
+                    <td id="progressToDo"></td>
+                    <td id="doneToDo"></td>
+                </tr>
+            </table>
+        </div>
+        <!-- block-todo -->
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
